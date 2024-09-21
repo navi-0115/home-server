@@ -1,6 +1,6 @@
 # Home Server
 
-[Home Server](https://amazingsafari.haidar.dev) is a online store for home server products
+[Home Server](https://homeserver.navinrgh.sit) is a online store that provides a platform for individuals to purchase home server products, such as Raspberry Pi, single-board computers, and related accessories.
 
 Table of Contents:
 
