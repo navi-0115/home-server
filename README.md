@@ -64,6 +64,7 @@ Inspirations:
 
 | Endpoint         | HTTP     | Description               |
 | ---------------- | -------- | ------------------------- |
+| `/`              | `GET`    | Home Page                 |
 | `/products`      | `GET`    | Get all products          |
 | `/products/slug` | `GET`    | Get product by id         |
 | `/products/seed` | `POST`   | Seed all initial products |
