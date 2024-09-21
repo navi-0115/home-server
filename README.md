@@ -52,8 +52,8 @@ Inspirations:
 
 ## Entity Relationship Diagram (ERD)
 
-- ERD: <https://dbdiagram.io/d/homeserver-erdiagram-66ed22e7a0828f8aa67a10db>
-  br
+- ERD URL: <https://dbdiagram.io/d/homeserver-erdiagram-66ed22e7a0828f8aa67a10db>
+- ERD Image
   ![ERD](./diagram/homeserver-erdiagram.svg)
 
 ## REST API Endpoints
@@ -91,9 +91,9 @@ Response Body:
 
 ```json
 {
-  "id": "abc123",
-  "name": "Panda Plush",
-  "price": 120000,
+  "id": "1",
+  "name": "Rasberry Pi 5",
+  "price": 1200000,
   "description": "Raspberry Pi 5 features the Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz, making it up to three times faster than the previous generation"
 }
 ```
