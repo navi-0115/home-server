@@ -8,7 +8,7 @@ Table of Contents:
   - [Links](#links)
   - [Features](#features)
   - [UI Designs](#ui-designs)
-  - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram)
+  - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
 
 ## Links
 
