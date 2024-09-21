@@ -53,6 +53,7 @@ Inspirations:
 ## Entity Relationship Diagram (ERD)
 
 - ERD: <https://dbdiagram.io/d/homeserver-erdiagram-66ed22e7a0828f8aa67a10db>
+  br
   ![ERD](./diagram/homeserver-erdiagram.svg)
 
 ## REST API Endpoints
