@@ -8,22 +8,21 @@ Table of Contents:
   - [Links](#links)
   - [Features](#features)
   - [UI Designs](#ui-designs)
-    - [Home Page](#home-page)
 
 ## Links
 
 - Website/Frontend: <https://homeserver.navinrgh.site>
   - Backend: <https://homeserver-backend.navinrgh.site>
 - Repositories:
-  - General: <https://github.com/mhaidarhanif/amazingsafari>
-  - Backend: <https://github.com/mhaidarhanif/amazingsafari-backend>
-  - Frontend: <https://github.com/mhaidarhanif/amazingsafari-frontend>
+  - General: <https://github.com/navi-0115/homeserver>
+  - Backend: <https://github.com/navi-0115/homeserver-backend>
+  - Frontend: <https://github.com/navi-0115/homeserver-frontend>
 
 Inspirations:
 
 - <https://servermall.com/>
 - <https://bambino.budigunawan.com>
-- <https://stlzoo.org/services/gift-shops/zoo-merchandise>
+- <https://us.dollarshaveclub.com/collections/shave-sets>
 
 ## Features
 
@@ -32,7 +31,6 @@ Inspirations:
   - Products catalogue. Example: <https://bambino.budigunawan.com>
 - Product page
   - Image
-  - SKU (stock keeping unit)
   - Name
   - Price
   - Description
@@ -52,50 +50,41 @@ Inspirations:
 
 - Figma: <https://www.figma.com/design/vH4MyTnT20CLf9MKW7dKLO/Home-Server-E-Commerce?node-id=0-1&t=ZqHwyYDMnEjdAEgU-1>
 
-### Home Page
-
-<img alt="Home Page" src="./designs/home.jpg" width="400" />
-
 ## Entity Relationship Diagram (ERD)
 
-![ERD](./diagrams/erd.svg)
+![ERD](https://dbdiagram.io/d/homeserver-erdiagram-66ed22e7a0828f8aa67a10db)
+![ERD](./diagram/homeserver-erdiagram.svg)
 
 ## REST API Endpoints
 
-- Production: `https://amazingsafari.haidar.dev`
+- Production: `https://homeserver.navinrgh.site`
 - Local: `http://localhost:3000`
 
 | Endpoint         | HTTP     | Description               |
 | ---------------- | -------- | ------------------------- |
 | `/products`      | `GET`    | Get all products          |
-| `/products/:id`  | `GET`    | Get product by id         |
+| `/products/slug` | `GET`    | Get product by id         |
 | `/products/seed` | `POST`   | Seed all initial products |
 | `/products`      | `POST`   | Add new product           |
 | `/products`      | `DELETE` | Delete all products       |
-| `/products/:id`  | `DELETE` | Delete product by id      |
-| `/products/:id`  | `PUT`    | Update product by id      |
+| `/products/slug` | `DELETE` | Delete product by id      |
+| `/products/slug` | `PUT`    | Update product by id      |
+| `/orders`        | `POST`   | Add new product           |
+| `/orders`        | `DELETE` | Delete all products       |
+| `/orders/slug`   | `DELETE` | Delete product by id      |
+| `/orders/slug`   | `PUT`    | Update product by id      |
 
 ### Product
 
 ```json
 {
-  "id": "abc123",
-  "name": "Panda Plush",
-  "price": 120000
+  "id": "1",
+  "name": "Rasberry Pi 5",
+  "price": 1200000
 }
 ```
 
 ### Add New Product
-
-Request Body:
-
-```json
-{
-  "name": "Panda Plush",
-  "price": 120000,
-  "color": "white"
-}
-```
 
 Response Body:
 
@@ -104,6 +93,6 @@ Response Body:
   "id": "abc123",
   "name": "Panda Plush",
   "price": 120000,
-  "colors": ["white"]
+  "description": "Raspberry Pi 5 features the Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz, making it up to three times faster than the previous generation"
 }
 ```
