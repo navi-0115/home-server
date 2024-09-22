@@ -67,16 +67,16 @@ Inspirations:
 | ---------------- | -------- | ------------------------- |
 | `/`              | `GET`    | Home Page                 |
 | `/products`      | `GET`    | Get all products          |
-| `/products/slug` | `GET`    | Get product by id         |
+| `/products/:id`  | `GET`    | Get product by id         |
 | `/products/seed` | `POST`   | Seed all initial products |
 | `/products`      | `POST`   | Add new product           |
 | `/products`      | `DELETE` | Delete all products       |
-| `/products/slug` | `DELETE` | Delete product by id      |
-| `/products/slug` | `PUT`    | Update product by id      |
+| `/products/:id`  | `DELETE` | Delete product by id      |
+| `/products/:id`  | `PUT`    | Update product by id      |
 | `/orders`        | `POST`   | Add new product           |
 | `/orders`        | `DELETE` | Delete all products       |
-| `/orders/slug`   | `DELETE` | Delete product by id      |
-| `/orders/slug`   | `PUT`    | Update product by id      |
+| `/orders/:id`    | `DELETE` | Delete product by id      |
+| `/orders/:id`    | `PUT`    | Update product by id      |
 
 ### Product
 
