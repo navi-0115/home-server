@@ -50,6 +50,7 @@ Inspirations:
 ## UI Designs
 
 - Figma URL: <https://www.figma.com/design/vH4MyTnT20CLf9MKW7dKLO/Home-Server-E-Commerce?node-id=0-1&t=ZqHwyYDMnEjdAEgU-1>
+- ![Design](./design/homeserver-design.svg)
 
 ## Entity Relationship Diagram (ERD)
 
