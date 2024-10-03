@@ -12,8 +12,8 @@ Table of Contents:
 
 ## Links
 
-- Website/Frontend: <https://homeserver.navinrgh.site>
-  - Backend: <https://homeserver-backend.navinrgh.site>
+- Website/Frontend: <https://homeserver.navinrgh.com>
+  - Backend: <https://homeserver-backend.navinrgh.com>
 - Repositories:
   - General: <https://github.com/navi-0115/homeserver>
   - Backend: <https://github.com/navi-0115/homeserver-backend>
